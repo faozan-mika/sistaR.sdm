@@ -1,0 +1,47 @@
+Package: sistaR.sdm
+Title: Species Distribution Analysis using WorldClim and Soil HWSD2 from FAO Database
+Version: 0.1.0
+Authors@R: 
+    person(given = "Faozan",
+           family = "Indresputra",
+           email = "faozan2015@gmail.com",
+           role = c("aut", "cre"))
+Description: sistaR.sdm is a species distribution modeling (SDM) tool that integrates...
+License: GPL-3
+Depends: 
+    R (>= 4.0.0),
+    shiny,
+    shinydashboard
+Imports:
+    terra,
+    RSQLite,
+    dplyr,
+    readxl,
+    geodata,
+    ggplot2,
+    dismo,
+    sf,
+    randomForest,
+    corrplot,
+    tidyr,
+    pROC,
+    geosphere,
+    psych,
+    e1071,
+    maxnet,
+    shinycssloaders,
+    leaflet,
+    rnaturalearth,
+    rnaturalearthdata,
+    maps,
+    httr,
+    htmltools
+Suggests:
+    testthat,
+    knitr,
+    rmarkdown
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+LazyData: false
+LazyDataCompression: xz
